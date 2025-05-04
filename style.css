@@ -2,14 +2,49 @@ body{
     font-family: 'Arial', sans-serif; 
     margin: 0;
     padding: 0;
-    background-color: rgb(242, 239, 239);
+    background-color: rgba(24, 24, 24, 0.135);
+    
 }
-nav{
-    text-align: center ;
-    background-color: rgb(61, 61, 61);
-    height :50px;
-    padding-top: 60px;
+.outer-nav {
+    text-align: center;
+    width: 100%;
+    height: 110px;
+    background: linear-gradient(to right, rgb(0, 102, 255), rgb(0, 73, 182));
+    box-sizing: border-box;
+    padding: 20px;
+
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
 }
+.nav{
+    background-color: rgba(0, 0, 0, 0.162);
+    margin-right: 15px;
+    padding: 0px 10px;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 35%;
+}
+.nav a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.0rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+
 button{
     background-color: rgba(61, 61, 61,0);
     border: none;
@@ -18,6 +53,14 @@ button{
     font-weight: 600;
     font-size: 1.1rem;
 
+}
+button a{
+    text-decoration: none;
+    color: rgb(193, 191, 193);
+}
+button:hover a{
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
 }
 
 button:hover{
@@ -101,17 +144,7 @@ textarea{
     font-weight: 400;
 }
 
-.blog-list{
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 20%;
-    width: 100%;
-    margin-bottom: 20px;
-    background-color: rgb(225, 223, 223);
-    padding: 20px;
-    border-radius: 10px;
-    font-weight: 600;
-}
+
 .post__title{
     font-size: 1.5rem;
     font-weight: 600;
