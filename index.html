@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX & TYPOGRAPHY TASK</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="nav">
+        <button class="nav__button"><a href="#blog-list">Home</a></button>
+        <button class="nav__button"><a href="#post-title-1">Blog posts</a></button>
+        <button class="nav__button"><a href="#name">Contact</a></button>
+    </nav>
+    <div class="blog-list" id="blog-list">
+        <span style="width: 13%;"></span>
+        <h2 style=" color: rgb(63, 63, 63); font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">Blog List</h2>
+        <ul style="font-size: 0.9rem;">
+            <li><a href="#post-title-1">Post Title 1</a></li>
+            <li><a href="#post-title-2">Post Title 2</a></li>
+            <li><a href="#post-title-3">Post Title 3</a></li>
+        </ul>
+    </div>
+
+    <div class="post" id="post-title-1">
+        <h3 style="text-align: center; color: rgb(63, 63, 63); font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">Post Title 1</h3>
+        <p>By John Doe</p>
+        <p><time datetime="2024-12-01">December 1, 2024</time></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit doloremque, eum qui laborum unde!</p>
+        <img src="assets/sprintslogo.svg" alt="sprints logo" width="90%">
+        <p>for more details visit this <a href="https://sprints.ai/ar-eg">link</a></p>
+        <h3 style="color: black; font-size: 1.2rem;">Key Points:</h3>
+        <ul>
+            <li>introduction to the topic</li>
+            <li>key insight</li>
+            <li>conclusion</li>
+        </ul>
+    </div>
+
+    <div class="post" id="post-title-2">
+        <h3 style="text-align: center; color: rgb(63, 63, 63); font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">Post Title 2</h3>
+        <p>By Jane Smith</p>
+        <p><time datetime="2024-11-25">November 25, 2024</time></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit doloremque, eum qui laborum unde!</p>
+        <img src="assets/sprintslogo.svg" alt="sprints logo" width="90%">
+        <p>find out more at <a href="https://sprints.ai/ar-eg">this resource</a></p>
+        <h3 style="color: black; font-size: 1.2rem;">important topics:</h3>
+        <ol>
+            <li>Background</li>
+            <li>Analysis</li>
+            <li>Future Directions</li>
+        </ol>
+    </div>
+
+    <div class="post" id="post-title-3 " >
+        <h3 style="text-align: center; color: rgb(63, 63, 63); font-family: 'Times New Roman', Times, serif; font-size: 1.8rem;">Post Title 3</h3>
+        <p>By Alex Brown</p>
+        <p><time datetime="2024-10-15">October 15, 2024</time></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique velit doloremque, eum qui laborum unde!</p>
+        <img src="assets/sprintslogo.svg" alt="sprints logo" width="90%">
+        <p>for more details visit this <a href="https://sprints.ai/ar-eg">link</a></p>
+        <h3 style="color: black; font-size: 1.2rem;">Takeaways:</h3>
+        <ul>
+            <li>introduction to the topic</li>
+            <li>key insight</li>
+            <li>conclusion</li>
+        </ul>
+    </div>
+    <div class="contact" id="contact">
+        <div class="contact__form">
+            <input type="text" id="name" name="name">
+            <input type="email" id="email" name="email">
+            <textarea id="message" name="message" ></textarea>
+            <button type="submit" id="btn">Send Message</button>
+        </div>
+        <h3>contact information</h3>
+    <br>
+    <table>
+        <tr>
+            <td>day</td>
+            <td>opening time</td>
+            <td>closing time</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>9:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+        <tr>
+            <td>Sunday</td>
+            <td>9:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>9:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td>9:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>9:00 AM</td>
+            <td>5:00 PM</td>
+        </tr>
+
+    </table>
+    <br>
+    <p> For Further inquiries, you can also email us at <a href="mailto:Info@myblog.com">Info@myblog.com</a> </p>
+    </div>
+    <label for="footer" id="test"></label>
+    
+</body>
+</html>
