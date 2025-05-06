@@ -99,7 +99,7 @@ button:hover{
 
 .post{
     background-color: rgb(255, 255, 255);
-    color: rgb(63, 63, 63);
+    color: rgba(63, 63, 63, 0.858);
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
@@ -107,9 +107,37 @@ button:hover{
     font-weight: 600;
     width: 70%;
     box-shadow: 1px 4px 6px rgba(0, 0, 0, 0.158);
+    text-align: center;
+    
+}
+.post ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin: 10px;
+}
+.post ol{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    margin: 10px;
+}
+.post h3{
+    color: rgb(41, 80, 252);
+}
+.post .post-date{
+    color: rgba(72, 72, 72, 0.591);
+    font-size: 0.9rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.author-name{
+    color: rgba(72, 72, 72, 0.703);
 }
 
-.contact{
+/* .contact{
     background-color: rgb(57, 57, 57);
     color: rgb(255, 255, 255);
     text-align: center;
@@ -171,7 +199,7 @@ textarea{
     border-radius: 1px;
     font-size: 0.9rem;
     font-weight: 400;
-}
+} */
 
 
 .post__title{
@@ -180,6 +208,22 @@ textarea{
     color: rgb(63, 63, 63);
     margin-bottom: 10px;
 }
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 136, 255);
+    height: 40px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+.footer a{
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+
 
 
 
